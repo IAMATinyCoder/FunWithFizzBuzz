@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FizzBuzz</title>
+        <style type="text/css" media="screen">
+          ol {
+              list-style-position: inside;
+          }
+          li:nth-child(3n):before {
+              content: 'Fizz';
+              color: #E91E63;
+          }
+          li:nth-child(5n):after {
+              content: 'Buzz';
+              color: #2196F3;
+          }
+          div {
+              text-align: center;
+          }
+          #header {
+              font-family: "Times New Roman", Georgia, Serif;
+              font-size: 42px;
+              color: #424242;
+              display: inline-block;
+          }
+        </style>
+    </head>
+    <body>
+        <div>
+            <span id="header">Fizz + Buzz = FizzBuzz!</span>
+        </div>
+        <ol id="fizzBuzz"></ol>
+
+        <script type="text/javascript">
+          var x = document.getElementById("fizzBuzz");
+          for (var i = 1; i <= 100; i++) {
+              var y = document.createElement("li");
+              x.appendChild(y);
+          }
+        </script>
+    </body>
+</html>
