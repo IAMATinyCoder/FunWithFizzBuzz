@@ -1,5 +1,7 @@
 # Fun With FizzBuzz!
 
+###### A small example of the FizzBuzz exercise using css logic to determine when to display Fizz, Buzz, FizzBuzz, or nothing, and adding a little style. In this example, Javascript is only used to create 100 list items and append them to an ordered list in the body.
+
 ### The Rules of FizzBuzz:
 
 1. Create a numbered list from 1 - 100
